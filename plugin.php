@@ -109,7 +109,7 @@ function wp_listings_init() {
 		$options = get_option('plugin_wp_listings_settings');
 
 		/** Register single styles but don't enqueue them **/
-		wp_register_style('wp-listings-single', WP_LISTINGS_URL . 'includes/css/wp-listings-single.css', '', null, 'all');
+		wp_register_style('wp-listings-single', WP_LISTINGS_URL . 'includes/css/wp-listings-single.css?v=1.0.0', '', null, 'all');
 
 		/** Register Font Awesome icons but don't enqueue them */
 		wp_register_style( 'font-awesome-5.8.2', 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css', array(), '5.8.2', 'all' );

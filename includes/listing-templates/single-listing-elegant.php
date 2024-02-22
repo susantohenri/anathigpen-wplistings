@@ -576,8 +576,12 @@ function single_listing_style() { ?>
 
 	td {
 		border-top: 1px solid #ddd;
-		padding: 6px 0;
-		padding: 0.6rem 0;
+		padding: 4px 10px;
+	}
+
+	table.listing-details tbody tr th {
+		font-size: 13px;
+		width: 40%;
 	}
 
 	/* Contact tab */
@@ -1019,7 +1023,7 @@ function single_listing_post_content() {
 
 
 
-		<div id="listing-tabs" class="listing-data">
+		<div id="listing-tabs" class="listing-data" style="height: auto;">
 
 			<ul>
 				<li><a href="#listing-description">Description</a></li>

@@ -118,7 +118,7 @@ function single_listing_post_content() {
 
 		?>
 
-		<div id="listing-tabs" class="listing-data">
+		<div id="listing-tabs" class="listing-data" style="height: auto;">
 
 			<ul>
 				<li><a href="#listing-description">Description</a></li>
